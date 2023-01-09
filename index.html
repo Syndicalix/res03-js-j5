@@ -14,27 +14,30 @@
             <section>
                 <img src="https://res03.sites.3wa.io/assets/files/js/j5/demo/assets/logo.svg">
             </section>
+            <h1>Menu déroulant</h1>
+            <aside class="open">
             <nav>
                 <ul>
-                    <li class="deroulant"><a href="#">UTILISATEURS</a></li>
+                    <h2>UTILISATEURS<span aria-hidden="true" class="bi-caret-down"></span></h2>
                         <ul class="sous">
                             <li><a href="#">LISTE DES UTILISATEURS</a></li>
                             <li><a href="#">AJOUTER UN UTILISATEUR</a></li>
                             <li><a href="#">STATISTIQUES UTILISATEURS</a></li>
                         </ul>
-                    <li class="deroulant"><a href="#">PRODUITS</a></li>
-                        <ul>
-                            <li><a href="">LISTE DES PRODUITS</a></li>
-                            <li><a href="">AJOUTER UN PRODUIT</a></li>
-                            <li><a href="">STATISTIQUES DES PRODUITS</a></li>
+                    <h2>PRODUITS<span aria-hidden="true" class="bi-caret-down"></span></h2>
+                        <ul class="sous">
+                            <li><a href="#">LISTE DES PRODUITS</a></li>
+                            <li><a href="#">AJOUTER UN PRODUIT</a></li>
+                            <li><a href="#">STATISTIQUES DES PRODUITS</a></li>
                         </ul>
-                    <li><a href="">CATÉGORIES</a></li>
-                        <ul>
-                            <li><a href="">LIST DES CATÉGORIES DE PRODUITS</a></li>
-                            <li><a href="">AJOUTER UNE CATÉGORIE DE PRODUITS</a></li>
+                    <h2>CATÉGORIES<span aria-hidden="true" class="bi-caret-down"></span></h2>
+                        <ul class="sous">
+                            <li><a href="#">LISTE DES CATÉGORIES DE PRODUITS</a></li>
+                            <li><a href="#">AJOUTER UNE CATÉGORIE DE PRODUITS</a></li>
                         </ul>
                 </ul>
             </nav>
+            </aside>
         </header>  
         <main>
                   
@@ -44,3 +47,82 @@
         </footer>  
     </body>
 </html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mini Projet Interface d'Administration</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <header>
+            <h1 class="sr-only">Espace Administrateur</h1>
+            <section class="open">
+                <h2 class="sr-only">Logo</h2>
+                <img src="https://res03.sites.3wa.io/assets/files/js/j5/demo/assets/logo.svg" alt="des point formant un soleil" />
+            </section>
+            <nav>
+                <h2 class="sr-only">Navigation vide</h2>
+            </nav>
+        </header>
+        <main>
+            <aside class="open">
+                <nav>
+                    <h2 data-nav="user-nav">
+                        Utilisateurs <span aria-hidden="true" class="bi-caret-down"></span>
+                    </h2>
+                    <ul class="close" data-nav="user-nav">
+                        <li>
+                            <a href="">Liste des utilisateurs</a>
+                        </li>
+                        <li>
+                            <a href="">Ajouter un utilisateur</a>
+                        </li>
+                        <li>
+                            <a href="">Statistiques utilisateurs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h2 class="close" data-nav="product-nav">
+                        Produits <span aria-hidden="true" class="bi-caret-down"></span>
+                    </h2>
+                    <ul data-nav="product-nav" class="close" >
+                        <li>
+                            <a href="">Liste des produits</a>
+                        </li>
+                        <li>
+                            <a href="">Ajouter un produit</a>
+                        </li>
+                        <li>
+                            <a href="">Statistiques des produits</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h2 data-nav="cat-nav">
+                        Catégories <span aria-hidden="true" class="bi-caret-down"></span>
+                    </h2>
+                    <ul data-nav="cat-nav" class="close" >
+                        <li>
+                            <a href="">Liste des catégories de produits</a>
+                        </li>
+                        <li>
+                            <a href="">Ajouter une catégorie de produits</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+
+            </section>
+        </main>
+        <script type="application/javascript" src="../index.js"></script>
+    </body>
+</html> -->
